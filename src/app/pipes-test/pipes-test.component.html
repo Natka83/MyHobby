@@ -1,0 +1,12 @@
+<h1>pipes-test works!</h1>
+<div>Uppercase:{{message | uppercase}}</div>
+<div>Lowercase:{{message | lowercase}}</div>
+<div>Number:{{pi | number}}</div>
+<div>Currency:{{pi | currency}}</div>
+<div>Percent:{{pi | percent}}</div>
+<hr>
+<div> Date from strig (short):{{dateFromString | date : "short"}}</div>
+<div> Date from object (short):{{dateFromObject | date : "short"}}</div>
+<div> Date from number (short):{{dateFromNumber | date : "short"}}</div>
+<hr>
+<div> Slice:{{ message | slice : -10}} </div>  

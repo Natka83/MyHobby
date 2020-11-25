@@ -1,0 +1,19 @@
+body{
+    background-color:aliceblue;
+    height: 100%;
+    width: 100%;
+}
+div {
+    text-align: center;
+    color: blue;
+}
+img{
+    padding:none;
+    width: 450px;
+    height: 300px;
+}
+.famousPeople{
+    padding:none;
+    width: 300px;
+    height: 200px;
+}
