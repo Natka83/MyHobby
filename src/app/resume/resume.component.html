@@ -1,0 +1,25 @@
+<!-- <p>resume works!</p> -->
+<body>
+    
+    <div class="main">
+        <h1>RESUME</h1>
+            <div>
+                <img [src]="this.myResume.photo">
+            </div>
+            <div>
+                <p>Name and surname: <span class="color">{{this.myResume.fio}}</span></p>
+                <p>Telephon number:</p>
+                <li *ngFor="let tel of myResume.tel">{{tel}}</li>
+                <p>Email: <span class="color">{{this.myResume.email}}</span></p>
+                <p>Employment history: <span class="color">{{this.myResume.expierence}} years</span></p>
+                <p>Location:<span class="color"> {{this.myResume.city}}</span></p>
+                <!-- <ul> -->
+            </div> 
+            <div>
+                <p>Have skills in creating:</p>
+                <li *ngFor="let skill of myResume.skills">{{skill}}</li>
+                <!-- </ul> -->
+                <!-- <img src="../../../assets/images/Avatar.jpg">  -->
+            </div>
+    </div>
+</body>

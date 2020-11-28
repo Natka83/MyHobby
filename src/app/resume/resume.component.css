@@ -1,0 +1,42 @@
+body{ 
+    margin: 0;      
+    background-color:rgba(219, 234, 248, 0.466);        
+    background-size: 100%;
+    text-align:center;
+}
+li{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(118, 158, 163);
+    font-style: italic;
+}
+div{
+    float: left;
+    padding-left: 15px;
+    padding-right: 10px; 
+    text-align: left;
+}
+.main{
+    position: fixed;
+    width: 93%;
+    height: 77%;     
+    color: rgb(92, 210, 226);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, ns-ssaerif;
+    font-weight: 600;
+    text-align: center;  
+    background-color:aliceblue;  
+    border: groove 1em rgba(181, 238, 252, 0.979);
+    border-radius: 1em; 
+}
+img{
+    text-align: left;
+    width: 320px;
+    height:320px;
+    margin: 0px;
+    padding: 0px;
+}
+.color{
+    color: rgb(118, 158, 163);
+    font-style: italic;
+}
